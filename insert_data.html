@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Insert data</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./insert_data.css">
+    <script src="./insert_data.js"></script>
+</head>
+<body>
+    <div class="main">
+        <form action="./exercise1.php" method="post" onsubmit="validate()">
+            <label for="first_name">First Name</label>
+            <input type="text" name="first_name" id="first_name" required>
+            <label for="last_name">Last Name</label>
+            <input type="text" name="last_name" id="last_name" required>
+            <label for="email_id">Email ID</label>
+            <input type="email" name="email_id" id="email_id" required>
+            <label for="contact_no">Contact Number</label>
+            <input type="number" name="contact_no" id="contact_no" required>
+            <input type="submit" value="Submit" name="submit">
+        </form>
+    </div>
+</body>
+</html>
